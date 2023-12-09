@@ -2,7 +2,6 @@
 // 2nd problem Remove extra space from string
 //3rd problem- find number of words in string
 
-
 //solution 1
 /**package section6_StringClassAndPrinting;
 public class Lect_57_StudentChallangeStringMEthod {
@@ -15,9 +14,8 @@ public class Lect_57_StudentChallangeStringMEthod {
 
 }**/
 
-
 //2nd solution
-package section6_StringClassAndPrinting;
+/**package section6_StringClassAndPrinting;
 public class Lect_57_StudentChallangeStringMEthod {
 	public static void main(String[] args) {
 String str="      abc     def     gh   ijk    ";
@@ -30,5 +28,19 @@ String str="      abc     def     gh   ijk    ";
         
 	}
 
-}
+}**/
 
+package section6_StringClassAndPrinting;
+
+public class Lect_57_StudentChallangeStringMEthod {
+	public static void main(String[] args) {
+
+		String str="Hello";
+		StringBuilder sb=new StringBuilder();
+		for(int i=str.length()-1; i>=0; i-- ) {
+			 sb.append(str.charAt(i));
+			 
+		}
+		System.out.println(sb);
+	}
+}
