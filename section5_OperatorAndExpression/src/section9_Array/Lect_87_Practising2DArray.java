@@ -40,7 +40,6 @@ public class Lect_87_Practising2DArray {
 		N[1]=new int[5];
 		N[2]=new int[8];
 		
-	//	N[0][0]= {1,2,3};
 		
 		for(int i=0; i<N.length;i++) {
 			for(int j=0;j<N[i].length; j++) {
